@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         PlayerRb = GetComponent<Rigidbody>();
-        focalPoint = GameObject.Find("Focal Point")
+        focalPoint = GameObject.Find("Focal Point");
     }
 
     // Update is called once per frame

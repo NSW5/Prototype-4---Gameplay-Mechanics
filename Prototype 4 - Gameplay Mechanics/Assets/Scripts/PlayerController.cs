@@ -40,6 +40,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void StartCoroutine(IEnumerable enumerable)
+    {
+        throw new NotImplementedException();
+    }
+
     IEnumerable PowerupCountdownRoutine()
     {
         yield return new WaitForSeconds(7);

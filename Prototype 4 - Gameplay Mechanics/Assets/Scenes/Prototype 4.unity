@@ -266,7 +266,7 @@ Transform:
   m_GameObject: {fileID: 24613926}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.15, z: 6}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -397,10 +397,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fbeb6b09fa94df4abaa9d4ccf553996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 4056298847090216540, guid: 60d0f2ae899967f4db332c745fe03b4c, type: 3}
   enemyCount: 0
   waveNumber: 1
-  powerupPrefab: {fileID: 0}
+  powerupPrefab: {fileID: 1799674493}
 --- !u!1001 &521565069
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -793,6 +793,11 @@ Transform:
   - {fileID: 1211419928}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1799674493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4212872438795218410, guid: 706430d28ae1f934bb337be179e7b786, type: 3}
+  m_PrefabInstance: {fileID: 9170010377240855808}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7305732181041295649
 PrefabInstance:
   m_ObjectHideFlags: 0
